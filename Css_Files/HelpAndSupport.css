@@ -1,0 +1,40 @@
+
+#paddingformain{
+	margin-top: 2rem;
+	width: 100%;
+	margin-bottom: 2rem;
+}
+@media screen and (max-width:600px) {
+	#paddingformain{
+		margin-top: 0.5rem;
+		margin-bottom: 1rem;
+	}
+}
+#borderdistance{
+	margin-right: 7%;
+	margin-bottom: 15px;
+	padding-top: 1.5rem;
+	padding-bottom: 0.5rem;
+	padding-left: 2rem;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media screen and (max-width:600px) {
+	#borderdistance{
+		margin-right: 0%;
+		padding-left: 1rem;
+	}
+}
+main{
+    color: rgb(128,0,64);
+	font-size: 21px;
+	font-family: Verdana,Arial,sans-serif;
+}
+a{
+	font-family: Times,Cursive,sans-serif;
+}
+
+.icon{
+	font-size: 27px;
+	word-spacing: 0.3em;
+}
+

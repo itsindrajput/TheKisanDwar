@@ -1,0 +1,76 @@
+.row1{
+	padding: 1rem;
+	padding-top: 0rem;
+	margin: 0 auto;
+}
+
+.column{
+	width: 22%;
+	height: 230px;
+}
+@media screen and (max-width:480px) {
+	.column{
+		width: 100%;
+		height: 230px;
+	}
+}
+figure{
+	border: 2px outset #ccc;
+	border-top-style: inset;
+	border-left-style: inset;
+	background-color: #e7e3d8;
+	margin: 1rem;
+	text-align: left;
+}
+figure img{
+	width: 100%;
+	height: 190px;
+	border: 2px solid rgb(185,185,185);
+}
+figcaption{
+	font-family: Cambria,sans-sarif,Arial;
+	font-size: 1.2rem;
+	text-align: center;
+}
+@media screen and (max-width:1211px) {
+	figcaption{
+		font-size: 80%;
+	}
+}
+
+.linkofimages:link{
+	color: rgb(0,0,128);
+}
+.linkofimages:visited{
+	color: brown;
+}
+.linkofimages:hover{
+	color: blue;
+}
+.linkofimages:focus{
+	color: deeppink;
+}
+.rishabh{
+	color: rgb(64,0,128);
+	font-weight: bold;
+	font-size: 1.4rem;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.icon{
+	font-size: 27px;
+	word-spacing: 0.2em;
+}
+i:hover{
+	color: red;
+}
+a #home:hover{
+	color: white;
+}
+
+#hovercard{
+	--outline-hover:.1rem solid var(--black);
+	--black:#454344;
+  }
+#hovercard:hover{
+	outline: var(--outline-hover);
+  }

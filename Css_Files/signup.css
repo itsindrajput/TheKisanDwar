@@ -1,0 +1,69 @@
+.jumbo{
+    padding: 3.3rem 0rem 0.5rem 0rem;
+}
+@media screen and (max-width: 500px) {
+.jumbo {
+    padding: 2.3rem 0rem 0.5rem 0rem;
+    font-size: 3rem;
+  }
+}
+    
+.form {
+border: 2px dotted #f1f1f1;
+background-color: #bde672;
+width: 65%;
+margin: 0 auto;
+margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+    .form {
+        width: 100%;
+      }
+}
+
+input[type=text], input[type=password] {
+width: 100%;
+padding: 10px 8px;
+margin: 3px 0;
+margin-top: 0px;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+.icon {
+font-size: 110px;
+text-align: center;
+color: #4286f4;
+}
+#user{
+	font-size: 1.3rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-top: 1rem;
+    margin-bottom: 0rem;
+    text-align: left;
+}
+
+.button {
+background-color: #4286f4;
+color: white;
+  padding: 6px 20px;
+  margin: 1rem 0;
+  border: none;
+  font-size: 1.3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  width: 50%;
+}
+
+.button:hover {
+opacity: 0.8;
+}
+.formcontainer {
+text-align: center;
+margin: 24px 50px 12px;
+}
+
+
+

@@ -1,0 +1,140 @@
+body{
+	background-color: white;
+}
+#contactbody{
+	margin-top: 3rem;
+	margin-bottom: 3.5rem;
+}
+@media screen and (max-width: 600px) {
+	#contactbody{
+		margin-top: 0.5rem;
+		margin-bottom: 2rem;
+	}
+}
+
+.jumbokatext{
+	margin-bottom: 1rem;
+	text-align: center;
+	font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: rgb(161, 16, 16);
+}
+.jumbokalink{
+	color: rgb(17, 17, 80);
+	
+}
+.jumbokalink:hover{
+	color: blue;
+}
+.card-text{
+	font-size: 1.2rem;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#masupport{
+	border: 2px solid rgb(181, 180, 180);
+	width: 100%;
+	height: auto;
+	border-radius: 6px;
+	margin: 0 auto;
+	text-align: start;
+	
+}
+.first{
+	display: inline-block;
+}
+@media screen and (max-width: 600px) {
+	.first{
+		content: "\a";
+    	white-space: pre;
+		text-align: left;
+	}
+}
+#input{
+	display: inline-block;
+	border-width: 2px;
+	text-align: start;
+	align-items: flex-end;
+	margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 600px) {
+	#input{
+		margin: 0rem;
+		padding: 0rem;
+		margin-bottom: 1rem;
+	}
+}
+.desk{
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 600px) {
+	.desk{
+	margin-bottom: 0rem;
+	}
+}
+
+.label{
+	font-size: 1.1rem;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding: 0rem;
+}
+@media screen and (max-width: 600px) {
+	.label{
+	margin-bottom: 0rem;
+	}
+}
+.textarea{
+	height: 7rem;
+	width: 97%;
+	margin-bottom: 1rem;
+}
+@media screen and (max-width: 600px) {
+	.textarea{
+		height: 6rem;
+		width: 62%;
+		margin-left: 0.3rem;
+		margin-top: 0rem;
+		
+	}
+}
+
+.description{
+	display: block;
+	
+}
+@media screen and (max-width: 600px) {
+	.description{
+		content: "\a";
+    	white-space: pre;
+		text-align: left;
+		margin-bottom: 0rem;
+	}
+}
+
+.subinp{
+	width: 81%;
+}
+@media screen and (max-width: 600px) {
+	.subinp{
+		width: auto;
+	}
+}
+.attachment{
+	content: "\a";
+    white-space: pre;
+}
+
+#searchs{
+	word-spacing: 2rem;
+	text-align: center;
+	margin: 2% 3.5%;
+}
+@media screen and (max-width: 600px) {
+	#searchs{
+		padding: 0px;
+		margin: 0%;
+		display: inline-block;
+	}
+}

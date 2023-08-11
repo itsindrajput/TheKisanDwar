@@ -1,0 +1,87 @@
+.jumbo{
+	padding: 3.3rem 0rem 0.5rem 0rem;
+}
+@media screen and (max-width: 500px) {
+.jumbo {
+	padding: 2.3rem 0rem 0.5rem 0rem;
+	font-size: 3rem;
+  }
+}
+.loginsec{
+	margin-bottom: 2rem;
+}
+#user{
+	font-size: 1.3rem;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-bottom: 0rem;
+}
+
+.form {
+  border: 2px solid #c0bdbd;
+  width: 50%;
+  margin: 0 auto;
+  background-color: #bde672;
+}
+
+@media screen and (max-width: 500px) {
+	.form {
+		width: 100%;
+	  }
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 6px 20px;
+  margin: 8px 0;
+  border: none;
+  font-size: 1.3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 4px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

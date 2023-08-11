@@ -1,0 +1,75 @@
+.jumbo{
+	padding: 3.3rem 0rem 0.5rem 0rem;
+}
+@media screen and (max-width: 600px) {
+.jumbo {
+	padding: 2.3rem 0rem 0.5rem 0rem;
+	font-size: 3rem;
+  }
+}
+#cardlogo{
+	font-size: 2.3rem;
+}
+@media screen and (max-width: 500px) {
+	#cardlogo{
+		font-size: 1.4rem;
+	}
+}
+
+
+.head{
+    padding:2rem 0;
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+	text-align: center;
+    color:var(--black);
+	font-family: 'Courier New', Courier, monospace;
+	
+}
+.head{
+    background: var(--pink);
+    color:#fff;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+    padding:.4rem 2rem;
+	width: 15rem;
+	clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+}
+@media screen and (max-width: 750px) {
+	.head{
+		margin-top: 0.5rem;
+	}
+}
+
+.legend{
+	font-family: cambria,century,sans-sarif;
+	margin-top: 0.5rem;
+	padding-bottom: 1rem;
+	text-align: justify;
+	line-height: 1.3em;
+	font-size: 1.5rem;
+	word-spacing: 0.2em;
+	color: blue;
+}
+p{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1.4rem;
+	text-align: justify;
+	word-spacing: 0.1em;
+	line-height: 1.3em;
+}
+#developer{
+	font-size: 1.5rem;
+	font-family: Georgia,arial,sans-sarif;
+	word-spacing: 0.1em;
+	color: blue;
+}
+#developer:visited{
+	color: black;
+}
+#developer:hover{
+	color: rgb(9, 9, 155);
+}
+
+

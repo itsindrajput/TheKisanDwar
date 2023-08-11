@@ -1,0 +1,311 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+@media only screen and (max-width: 500px) {
+  * {
+    overflow-x: hidden;
+  }
+}
+body{
+	background-color: rgb(50, 159, 223);
+}
+
+.jumbotron{
+	background-color:rgb(120, 233, 44);
+	text-align: center;
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .display-7 {
+    font-size: 1.8rem;
+    margin-top: 1.2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .display {
+    font-size: 0.9rem;
+  }
+}
+h1{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4{
+	font-family: Verdana;
+}
+
+@media only screen and (max-width: 500px) {
+  #scrollfn {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+/* Navbar Css beigns here */
+
+  @media only screen and (min-width: 500px) {
+    #navbc {
+      margin-top: 0.1rem;
+    }
+  }
+
+#navbarstyle{
+	background-color:rgb(4, 70, 10);
+    margin-bottom: 17px;
+	}
+
+#actives:hover{
+	background-color: rgb(10, 168, 94);
+	font-size: 16px;
+}
+
+#actives:active{
+	border: 2px solid cyan;
+}
+
+#actives:focus{
+	border-color: cyan;
+}
+
+#actives{
+	width: 95px;
+	color: white;
+	font-size: 17px;
+	border: 1px ridge pink;
+	border-radius: 6px;
+	text-align: center;
+	font-family: Cambria,Georgia,arial;
+	margin-bottom: 1px;
+}
+address rish{
+	font-size: 19px;
+}
+
+
+
+.explore:hover{
+	background-color: #ccc;
+}
+.explore:focus{
+	background-color: darkcyan;
+}
+#dropmenu{
+	margin-right: 20px;
+	margin-top: 2px;
+}
+/* Navbar Css ends here */
+
+nav{
+	font-weight: bold;
+}
+
+
+
+/* reset our lists to remove bullet points and padding */
+.list{
+padding:0px;
+margin:0px;
+}
+
+.mainmenu, .submenu {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+/* make ALL links (main and submenu) have padding and background color */
+#droupdown{
+  width: 100%;
+  text-align: center;
+  height: 3.3rem;
+  background-color: rgb(63, 21, 214);
+  font-size: 18px;
+  color: rgb(248, 247, 247);
+  font-weight: bold;
+  overflow: scroll;
+}
+
+@media only screen and (max-width: 500px) {
+  #droupdown {
+    height: 4rem;
+  }
+}
+
+#droupdown:hover{
+  background-color: yellowgreen;
+  color: blue;
+
+}
+
+.mainmenu a {
+font-size: 18px;
+text-align: center;
+display:block;
+background-color: rgb(63, 21, 214);
+padding: 10.5px;
+border-color: rgb(174, 172, 172);
+border-style: solid;
+border-width: 0.1rem;
+color: rgb(248, 247, 247);
+}
+
+@media only screen and (max-width: 500px) {
+  .mainmenu a {
+    padding: 12px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .row {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #mobilecarousel {
+    width: 400px;
+    height: 558px;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+.mainmenu a:hover {
+	background-color: yellowgreen;
+}
+
+.mainmenu li:hover .submenu {
+max-height: 200px;
+}
+
+.submenu {
+  background-color: darkcyan;
+  transition: all .2s ease-in-out;
+  color: white;
+}
+
+.icon-bar{
+	float: both;
+	word-spacing: 0.7em;
+	text-align: center;
+}
+.list-unstyled{
+	font-size: 18px;
+	font-family: Cambria,Georgia,Arial,sans-sarif;
+}
+a{
+	color: rgb(26, 24, 24);
+	text-decoration:none;
+}
+a:hover{
+	color: blue;
+	text-decoration: none;
+}
+
+
+
+.footer{
+  background-color:rgb(120, 233, 44);
+	padding-top: 1rem;
+	margin-top: 0.7rem;
+  }
+  #container1{
+    padding-left: 7rem;
+  }
+  @media only screen and (max-width: 500px) {
+    #container1{
+      padding-left: 0.3rem;
+    }
+  }
+
+  .footer-col{
+     width: 23%;
+     padding: 0 20px;
+  }
+  
+  .footer-col h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(184, 35, 35);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  } 
+  
+  .footer-col ul li:not(:last-child){
+      margin-bottom: 2px;
+  }
+  
+  .footer-col ul li a{
+      font-size: 1.2rem;
+      color: black;
+      text-decoration: none;
+      font-weight: lighter;
+      display: block;
+      transition: all 0.3s ease;
+  }
+  
+  .footer-col ul li a:hover{
+    color: blue;
+    padding-left: 8px;
+  }
+  
+  .footer-col .social-links i{
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	color: black;
+	transition: all 0.5s ease;
+	font-size: 1.5rem;
+}
+ 
+  .footer-col .social-links i:hover{
+      color: blue;
+  }
+  
+  @media(max-width: 767px){
+    .footer-col{
+      width: 50%;
+      margin-bottom:12px;
+  }
+  }
+  @media(max-width: 574px){
+    .footer-col{
+      width: 100%;
+  }
+  }
+
+  .copyright{
+	font-size: 1rem;
+	font-family: Cambria,Georgia,Arial,sans-sarif;
+	text-align: center;
+	color: black;
+  margin-top: 0rem;
+  padding-top: 0rem;
+  line-height: 0.9rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .copyright{
+    font-size: 0.7rem;
+    margin: 0rem;
+    padding: 0rem;
+    line-height: 0.9rem;
+    margin-bottom: 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-col {
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+  }
+}

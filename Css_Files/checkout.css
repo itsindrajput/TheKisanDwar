@@ -1,0 +1,36 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+@media only screen and (max-width: 500px) {
+  * {
+    overflow-x: hidden;
+  }
+}
+/* Slider for the certifictes*/
+.slide-content {
+    margin: 8px;
+    width: 450px;
+    height: 280px;
+    background-color: lightgray;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  img {
+    width: 100%;
+  }
+  .slid-er {
+    height: 326px; /* slide-content height + 2*margin */
+    margin: 2rem 0rem 2rem 0rem;
+    overflow: hidden;
+    width: 100%;
+  }
+  .slid-er .slides {
+    display: flex;
+  }
+  .slid-er .slide {
+    width: 458px; /* slide-content width + margin */
+  }
+  

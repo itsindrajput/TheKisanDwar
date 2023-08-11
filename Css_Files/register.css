@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(95, 236, 154);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.rishabh{
+	color: rgb(64,0,128);
+	font-weight: bold;
+	font-size: 24px;
+	word-spacing: 0.1em;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#copyright{
+	color: rgb(0,0,164);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icon{
+	font-size: 27px;
+	word-spacing: 0.2em;
+}
+
+
+.copyright{
+	font-size: 1rem;
+	font-family: Cambria,Georgia,Arial,sans-sarif;
+	text-align: center;
+	color: black;
+}
