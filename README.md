@@ -13,12 +13,12 @@ Welcome to the **GitHub repository** for **The Kisan Dwar Portal**! 🎉 This re
 - **Blogs:** Engaging and informative blogs covering a wide range of agricultural topics, keeping farmers up-to-date with the latest trends and techniques. 📚
 - **Gallery:** A visual journey through farming practices, crops, and machinery, providing deeper insights into the agricultural landscape. 📷
 - **Features:** Detailed sections highlighting the portal's offerings like Msp Policy, Food Storage, Supply Chain, Farm Techniques, and Commodity Market. 💡
-- **Log In:** Secure user authentication system allowing registered users to access personalized features and content. 🔐
-- **Shop Now:** An online shop where farmers can conveniently purchase essential resources, tools, and equipment. 🛒
+- **Log In:** Secure user authentication system allowing registered users to access personalized content. 🔐
+- **Shop Now:** An online shop where farmers can conveniently purchase essential resources, and equipments. 🛒
 
 ## Website Link 🌐
 
-Explore the live website at
+Explore these live websites:
 - [https://thekisandwar.netlify.app/](https://thekisandwar.netlify.app/)
 - https://itsindrajput.github.io/TheKisanDwar/
 
